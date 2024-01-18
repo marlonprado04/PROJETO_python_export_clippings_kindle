@@ -12,7 +12,7 @@ import pandas as pd
 # PASSO 1: ACESSA ARQUIVO
 
 # Abre o arquivo .txt em modo de leitura
-with open('test.txt', 'r', encoding='utf-8') as file:
+with open('./files/test_clippings.txt', 'r', encoding='utf-8') as file:
     # Lê o conteúdo do arquivo
     content = file.read()
 
